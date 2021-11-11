@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_step"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp">
+
+    <TextView
+        android:id="@+id/tv_step_short_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:padding="@dimen/half_default_padding"
+        android:textSize="@dimen/default_text_size"
+        android:textStyle="bold|italic"
+        android:text="@string/sample_step"/>
+
+</LinearLayout>
