@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/previous_page"
+        android:icon="@drawable/ic_backward"
+        android:title="Previuos Page" />
+
+    <item
+        android:id="@+id/useless_menu"
+        android:title="" />
+
+    <item
+        android:id="@+id/next_page"
+        android:icon="@drawable/ic_forward"
+        android:title="Next Page" />
+</menu>
